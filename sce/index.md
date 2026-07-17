@@ -1,7 +1,7 @@
 # 30/60nm NMOS의 Short Channel Effect 개선 — SOI · Halo Doping · Metal Gate
 
 **Topic:** TCAD 시뮬레이션으로 소자 미세화에 따른 단채널 효과(SCE)와 Punch-through를 억제하는 공정 조합 탐색
-**Course:** 반도체집적공정 (팀 프로젝트, 5인 — 김시현, 류민혁, 유용성, 이재명, 한태민)
+**Course:** 반도체집적공정 (팀 프로젝트, 5인 — 유용성 외 4인)
 **Period:** 2026.05–2026.06
 **Tools:** Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual)
 **Role:** SOI · Metal Gate · Halo Doping 시뮬레이션 담당 (팀 내 유일한 차세대반도체공학 복수전공자로서 TCAD 파트 수행)
