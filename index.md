@@ -13,7 +13,7 @@
 | 1 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
 | 2 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
 | 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
-| 4 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026 상반기 | Team Project | [Project Page](las/) |
+| 4 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05-2026.06 | Team Project | [Project Page](las/) |
 
 ---
 
