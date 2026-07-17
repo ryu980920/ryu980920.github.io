@@ -1,11 +1,8 @@
 # 용성 (Yongseong Ryu) | Materials & Semiconductor Engineering Portfolio
 
-<!-- ▼▼▼ 아래 대괄호 [ ] 안의 내용을 본인 정보로 채워주세요 ▼▼▼ -->
+반도체 공정 분야로의 취업을 목표로 하는 숭실대학교 신소재공학과 학생입니다. 꾸준함을 강점으로 삼아 학기를 거듭할수록 성적이 우상향해왔으며, TCAD 시뮬레이션을 중심으로 공정 설계와 소자 특성 분석 역량을 쌓아가고 있습니다.
 
-반도체 소자·공정을 공부하는 [○○대학교 ○○공학과] 학부생입니다.
-[TCAD 시뮬레이션을 중심으로 공정 설계와 소자 특성 분석에 관심이 있습니다. — 2~3문장으로 본인을 소개하세요.]
-
-**Contact:** ryu990530@gmail.com · [github.com/본인아이디](https://github.com/)
+**Contact:** ryu990530@gmail.com · [github.com/ryu980920](https://github.com/ryu980920)
 
 ---
 
@@ -19,11 +16,9 @@
 
 ## Education
 
-<!-- ▼ 본인 학력으로 수정하세요 ▼ -->
-
-**[○○ University]**
-B.S. Student in [○○ Engineering]
-[복수전공 / 부전공이 있다면 여기에]
+**숭실대학교 (Soongsil University)**
+신소재공학과 학사과정 (B.S. Student in Materials Science and Engineering)
+차세대반도체공학과 복수전공 (Double Major in Next-Generation Semiconductor Engineering)
 
 ---
 
@@ -31,8 +26,8 @@ B.S. Student in [○○ Engineering]
 
 - Semiconductor Devices & Processes
 - TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual)
-- [Materials Characterization / 재료 분석 — 해당되면 유지, 아니면 삭제]
-- [Python / Excel / 기타 다룰 수 있는 툴]
+- Materials Characterization — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
+- Materials Science — 재료역학, 고분자공학 등 전공 지식
 
 ---
 
@@ -52,22 +47,20 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 ## Presentations & Competitions
 
-<!-- ▼ CPC 등 발표 경험을 채우세요 ▼ -->
-
-- **[CPC ○○ 대회]** ([2026.__]) — TCAD PMOS 프로젝트 결과를 발표하고 피드백을 받았습니다. [피드백을 반영해 개선한 점이 있다면 한 줄 추가]
+- **CPC (프로젝트 보고서 챌린지)** (2026.06) — TCAD PMOS 프로젝트 결과를 발표하고 피드백을 받았습니다.
 
 ---
 
 ## Activities
 
-<!-- ▼ 외부 활동을 채우세요. 없으면 이 섹션 전체를 삭제해도 됩니다 ▼ -->
-
-- [활동명] — [역할, 기간, 한 줄 설명]
+- **신소재공학과 학생회** — 복지국원 (2026.03–2026.12)
+- **신소재공학과 기자단** — 학과 소식 취재 및 기사 작성 (2025.03–2026.03)
+- **슈런 (교내 동아리)** — 훈련부 임원 (2026.03–2026.12)
 
 ---
 
 ## Coursework
 
-학기 중 수강한 반도체 관련 과목 정리입니다. 자세한 내용은 각 링크(Notion)에서 확인할 수 있습니다.
+학기 중 수강한 반도체·재료 관련 과목 정리입니다. 자세한 내용은 아래 링크(Notion)에서 확인할 수 있습니다.
 
-- [반도체소자] · [반도체공정] · [재료과학] · … → [Notion 정리 링크](https://www.notion.so/)
+- 반도체집적공정 · 재료역학 · 고분자공학 · [기타 수강 과목 추가 예정] → [Notion 정리 링크](https://www.notion.so/) <!-- ▼ Notion 링크 주소로 교체해주세요 -->
