@@ -1,88 +1,58 @@
-# 유용성 (Yongseong Ryu) | Materials & Semiconductor Engineering Portfolio
+# LAS 기반 반도체 공정 분석 주제 연구 — 팀 프로젝트
 
-반도체 공정 분야로의 취업을 목표로 하는 숭실대학교 신소재공학과 학생입니다. 꾸준함을 강점으로 삼아 학기를 거듭할수록 성적이 우상향해왔으며, TCAD 시뮬레이션을 중심으로 공정 설계와 소자 특성 분석 역량을 쌓아가고 있습니다.
+**Course:** 반도체 공정과 화학분석 (팀 프로젝트, 7조)
+**Period:** 2026 상반기
+**Role:** 조장 — 일정·역할 배분 조율 및 주제 선정 발표 담당 (팀 대표 발표)
+**Keywords:** LAS, QCLAS, OES, Plasma Etching, 문헌 기반 조사, 피드백 반영
 
-**Contact:** ryu990530@gmail.com · [github.com/ryu980920](https://github.com/ryu980920)
+[← 포트폴리오 홈으로](../)
 
----
-
-## Portfolio Summary
-
-| No. | Item | Period | Type | Link |
-| --- | --- | --- | --- | --- |
-| 1 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
-| 2 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
-| 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
+> 이 프로젝트에서 선정·연구한 주제를 이후 **반도체공학회 하계학술대회**에서도 발표했습니다. 기술 원리(OES 한계 → LAS/QCLAS → CF₂·SiF₄ 사례)의 상세 설명은 학회 발표 페이지에 정리되어 있습니다. → [QCLAS 학회 발표 페이지 보기](../qclas/)
+>
+> 본 페이지는 기술 내용의 반복 대신, **팀 프로젝트가 어떤 과정으로 진행되었고 피드백을 어떻게 반영했는지**를 중심으로 정리합니다.
 
 ---
 
-## Education
+## 1. 프로젝트 개요와 역할
 
-**숭실대학교 (Soongsil University)**
-신소재공학과 학사과정 (B.S. Student in Materials Science and Engineering)
-차세대반도체공학과 복수전공 (Double Major in Next-Generation Semiconductor Engineering)
+반도체 공정과 화학분석 수업의 팀 프로젝트로, 미세화된 반도체 식각 공정을 분석할 차세대 진단 기법을 조사·발표했다. 최종 선정 주제는 **"Laser Absorption Spectroscopy(LAS)를 이용한 반도체 Plasma 공정 분석"** 이다.
 
----
-
-## Skills & Interests
-
-- Semiconductor Devices & Processes
-- TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual). 개인 프로젝트, 팀 프로젝트, 학회 발표를 통해 공정 최적화부터 공정 진단까지 다각도로 시뮬레이션 경험을 쌓음
-- Materials Characterization — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
-- Materials Science — 재료역학, 고분자공학 등 전공 지식
+**조장**으로서 프로젝트 전반을 이끌었다. 자료 취합 마감 일정을 정하고 팀원별 역할을 배분·조율했으며, 왜 이 주제를 골랐는지와 탐구 방향을 팀을 대표해 발표하는 **주제 선정 발표**도 맡았다.
 
 ---
 
-## Projects
+## 2. 주제 선정 배경 (요약)
 
-### 1. [TCAD PMOS Process Conversion & Optimization](tcad/)
+미세화로 식각 부산물이 줄면서 기존 광학 진단법 **OES**는 방출광 자체가 약해져 정밀 분석에 한계가 생겼다. 이를 보완할 방법으로, 외부 레이저를 쏘아 흡수량으로 농도를 정량하는 **LAS**, 그중에서도 중적외선을 쓰는 **QCLAS**를 주제로 선정했다.
 
-**Period:** 2026.04–2026.05 · **Tools:** Synopsys Sentaurus TCAD · **Status:** Completed
+<!-- 주제 선정 발표에 사용한 슬라이드 -->
+![기존 분석 기술 OES와 그 한계](slides/slide-1.jpg)
 
-Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWell 도핑 농도와 LDD Dose를 조정하여 소자 특성을 최적화한 프로젝트입니다. 최종 조건에서 구동 전류(I<sub>max</sub>)는 약 13.5%만 희생하면서 누설 전류(I<sub>off</sub>)를 약 91% 줄이고 SS도 개선했습니다.
+![소자 미세화에 따른 물리적 한계 — Open Area 감소와 OES 사각지대](slides/slide-2.jpg)
 
-[상세 페이지 보기 →](tcad/)
+![차세대 기술 LAS 도입 배경 — Beer–Lambert 기반 정량·선택성](slides/slide-3.jpg)
 
-### 2. [30/60nm NMOS Short Channel Effect 개선 — SOI · Halo · Metal Gate](sce/)
-
-**Period:** 2026.05–2026.06 · **Tools:** Synopsys Sentaurus TCAD · **Type:** Team Project (5인)
-
-소자 미세화에 따른 단채널 효과와 Punch-through를 억제하기 위해 SOI, Halo Doping, Metal Gate를 단독/복합 적용하여 정량 비교한 팀 프로젝트입니다. 팀 내 유일한 차세대반도체 복수전공자로서 SOI·Metal Gate·Halo 시뮬레이션을 전담했으며, 30nm 통합 구조에서 SS를 186.6 → 89.9 mV/dec로 개선했습니다.
-
-[상세 페이지 보기 →](sce/)
-
-<!-- ▼ 이후 프로젝트가 추가되면 여기에 같은 형식으로 이어붙입니다 ▼ -->
+> 기술 원리에 대한 자세한 설명(QCLAS 분석 과정 5단계, CF₂/SiF₄ 모니터링 사례, 정량 데이터 근거 등)은 [QCLAS 학회 발표 페이지](../qclas/)에 정리되어 있다.
 
 ---
 
-## Presentations & Competitions
+## 3. 연구 과정 & 피드백 반영 (핵심)
 
-### [반도체공학회 하계종합학술대회 — 구두 발표](qclas/)
+이 프로젝트의 핵심은 **주제 선정 발표에서 받은 피드백을 근거의 재정비로 연결한 과정**이다.
 
-**"QCLAS 기반 반도체 플라즈마 식각 공정 진단"** · 2026.07 · 특별세션 구두 발표 (아난티 앳 부산코브)
+| 단계 | 내용 | 결과 |
+|---|---|---|
+| ① 주제 선정 발표 | OES의 한계와 LAS/QCLAS의 필요성을 팀 대표로 발표 | 교수님으로부터 **"근거로 사용한 논문이 너무 오래되었다"** 는 피드백 |
+| ② 피드백 반영 재조사 | 근거 문헌을 **2024~2026년 사이 최신 논문으로 한정**하여 자료를 다시 조사 | 최신 공정 트렌드에 부합하는 근거로 논지 재구성 |
+| ③ 최종 발표 | 갱신된 근거를 바탕으로 최종 발표 진행 | 근거의 시의성·신뢰성이 크게 향상 |
 
-미세화로 인한 기존 광학 진단법(OES)의 한계를 짚고, 그 대안인 QCLAS(양자 캐스케이드 레이저 흡수 분광법)의 원리와 실측 데이터 기반 정량 진단 가능성을 발표했습니다. 발표 후 "OES 대비 QCLAS의 장점"에 대한 질의에 데이터 근거로 답변했습니다.
-
-[발표 상세 페이지 보기 →](qclas/)
-
-### [CPC (프로젝트 보고서 챌린지)](sce/#cpc-발표-및-피드백-qa)
-
-**2026.06** — 30/60nm NMOS Short Channel Effect 개선 프로젝트 결과를 발표했습니다. "SS가 과도하게 높은 중간 데이터를 왜 포함했는가", "Metal Gate에 High-k가 함께 적용됐는가" 두 질의에 답하며 프로젝트의 판단 기준과 한계를 다시 짚었습니다. 특히 Metal Gate 단독 적용의 한계로부터 High-k의 필요성을 역으로 짚어낸 접근에 대해 긍정적인 피드백을 받았습니다.
-
-[Q&A 상세 보기 →](sce/#cpc-발표-및-피드백-qa)
+**피드백의 핵심을 놓치지 않았다는 점**이 중요하다. "논문이 오래됐다"는 지적은 단순히 출처 연도의 문제가 아니라, 빠르게 변하는 반도체 공정 분야에서 오래된 근거는 현재 트렌드를 반영하지 못한다는 뜻이다. 그래서 단순히 논문 몇 개를 교체한 것이 아니라, **인용 문헌 전체를 2024~2026년 범위로 제한**하는 원칙을 세워 자료조사를 다시 수행했다.
 
 ---
 
-## Activities
+## 4. 배운 점 (Retrospective)
 
-- **신소재공학과 학생회** — 복지국원 (2026.03–2026.12)
-- **신소재공학과 기자단** — 학과 소식 취재 및 기사 작성 (2025.03–2026.03)
-- **슈런 (교내 동아리)** — 훈련부 임원 (2026.03–2026.12)
-
----
-
-## Coursework
-
-학기 중 수강한 반도체·재료 관련 과목 정리입니다. 자세한 내용은 아래 링크(Notion)에서 확인할 수 있습니다.
-
-- 반도체집적공정 · 재료역학 · 고분자공학 · [기타 수강 과목 추가 예정] → [Notion 정리 링크](https://www.notion.so/) <!-- ▼ Notion 링크 주소로 교체해주세요 -->
+- **근거의 시의성**: 기술 분야에서는 "무엇을 주장하느냐"만큼 "얼마나 최신 근거로 뒷받침하느냐"가 설득력을 좌우한다. 최신 문헌으로 근거를 재정비하며 이 점을 체감했다.
+- **피드백을 원칙으로 전환**: 지적을 개별 수정으로 끝내지 않고 "2024~2026년 문헌만 사용"이라는 명시적 기준으로 바꿔, 이후 조사 전체의 일관성을 확보했다.
+- **팀 대표 발표 경험**: 팀의 방향성을 대표해 발표하는 역할을 맡으며, 조사 내용을 청중이 이해할 수 있는 논리로 재구성하는 연습이 되었다. 이 경험은 이후 반도체공학회 발표로 이어졌다.
+- **조장으로서의 프로젝트 운영**: 자료 취합 마감을 기준으로 일정을 세우고 팀원별 역할을 배분하며, 여러 사람의 조사 결과를 하나의 발표로 수렴시키는 과정을 조율했다. 개별 조사만큼이나 전체 일정과 산출물의 정합성을 관리하는 것이 팀 성과를 좌우한다는 것을 경험했다.
