@@ -55,7 +55,7 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 [발표 상세 페이지 보기 →](qclas/)
 
-- **CPC (프로젝트 보고서 챌린지)** (2026.06) — TCAD PMOS 프로젝트 결과를 발표하고 피드백을 받았습니다.
+**CPC (프로젝트 보고서 챌린지)** (2026.06) — TCAD PMOS 프로젝트 결과를 발표하고 피드백을 받았습니다.
 ---
 
 ## Activities
