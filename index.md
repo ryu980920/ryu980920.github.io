@@ -8,9 +8,11 @@
 
 ## Portfolio Summary
 
-| No. | Project | Period | Status | Link |
+| No. | Item | Period | Type | Link |
 | --- | --- | --- | --- | --- |
-| 1 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Completed | [Project Page](tcad/) |
+| 1 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
+| 2 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
+| 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
 
 ---
 
@@ -25,7 +27,7 @@
 ## Skills & Interests
 
 - Semiconductor Devices & Processes
-- TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual)
+- TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual). 개인 프로젝트, 팀 프로젝트, 학회 발표를 통해 공정 최적화부터 공정 진단까지 다각도로 시뮬레이션 경험을 쌓음
 - Materials Characterization — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
 - Materials Science — 재료역학, 고분자공학 등 전공 지식
 
@@ -49,6 +51,8 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 [상세 페이지 보기 →](sce/)
 
+<!-- ▼ 이후 프로젝트가 추가되면 여기에 같은 형식으로 이어붙입니다 ▼ -->
+
 ---
 
 ## Presentations & Competitions
@@ -62,6 +66,7 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 [발표 상세 페이지 보기 →](qclas/)
 
 - **CPC (프로젝트 보고서 챌린지)** (2026.06) — TCAD PMOS 프로젝트 결과를 발표하고 피드백을 받았습니다.
+
 ---
 
 ## Activities
