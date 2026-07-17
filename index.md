@@ -45,7 +45,7 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 ### 2. [30/60nm NMOS Short Channel Effect 개선 — SOI · Halo · Metal Gate](sce/)
 
-**Period:** 2026.05–2026.06 · **Tools:** Synopsys Sentaurus TCAD · **Type:** Team Project (5인)
+**Period:** 2026.05–2026.06 · **Tools:** Synopsys Sentaurus TCAD · **Type:** Team Project (5인) · **Status:** Completed
 
 소자 미세화에 따른 단채널 효과와 Punch-through를 억제하기 위해 SOI, Halo Doping, Metal Gate를 단독/복합 적용하여 정량 비교한 팀 프로젝트입니다. 팀 내 유일한 차세대반도체 복수전공자로서 SOI·Metal Gate·Halo 시뮬레이션을 전담했으며, 30nm 통합 구조에서 SS를 186.6 → 89.9 mV/dec로 개선했습니다.
 
