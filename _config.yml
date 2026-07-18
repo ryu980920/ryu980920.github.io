@@ -1,3 +1,11 @@
 title: Yongseong Ryu | Materials & Semiconductor Engineering Portfolio
 description: Portfolio of materials science and semiconductor device/process engineering projects
-theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  auto_ids: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
