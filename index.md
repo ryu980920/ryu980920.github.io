@@ -32,12 +32,12 @@ layout: default
 
 ## Skills & Interests
 
-- Semiconductor Devices & Processes
-- TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual). 개인 프로젝트, 팀 프로젝트, 학회 발표를 통해 공정 최적화부터 공정 진단까지 다각도로 시뮬레이션 경험을 쌓음
-- Materials Characterization — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
-- Materials Science — 재료결정학, 무기화학, 고분자공학 등 전공 지식
-- Technical Presentation & Q&A — 반도체공학회 하계학술대회 구두 발표를 비롯해 팀 프로젝트 대표 발표(반도체공정과화학분석·반도체개발프로세스), CPC 프로젝트 발표 등 다수의 발표를 수행. 발표 후 질의응답에서 대부분의 질문에 데이터와 근거를 들어 직접 답변한 경험
-- Collaboration & Leadership — 다수의 팀 프로젝트를 수행했으며, LAS 프로젝트에서는 조장으로서 일정·역할 배분을 조율하고 팀을 대표해 발표를 담당
+- **Semiconductor Devices & Processes**
+- **TCAD Device/Process Simulation** — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual). 개인 프로젝트, 팀 프로젝트, 학회 발표를 통해 공정 최적화부터 공정 진단까지 다각도로 시뮬레이션 경험을 쌓음
+- **Materials Characterization** — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
+- **Materials Science** — 재료결정학, 무기화학, 고분자공학 등 전공 지식
+- **Technical Presentation & Q&A** — 반도체공학회 하계학술대회 구두 발표를 비롯해 팀 프로젝트 대표 발표(반도체공정과화학분석·반도체개발프로세스), CPC 프로젝트 발표 등 다수의 발표를 수행. 발표 후 질의응답에서 대부분의 질문에 데이터와 근거를 들어 직접 답변한 경험
+- **Collaboration & Leadership** — 다수의 팀 프로젝트를 수행했으며, LAS 프로젝트에서는 조장으로서 일정·역할 배분을 조율하고 팀을 대표해 발표를 담당
 
 ---
 
@@ -45,29 +45,35 @@ layout: default
 
 대표 프로젝트입니다. QCLAS 학회 발표와 이전·이후 학기 프로젝트를 포함한 전체 목록은 **[전체 프로젝트 보기 →](projects/)** 에서 학기별로 확인할 수 있습니다.
 
-### [TCAD PMOS Process Conversion & Optimization](tcad/)
-
-**Period:** 2026.04–2026.05 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Type:** 개인 프로젝트
-
-Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWell 도핑 농도와 LDD Dose를 조정하여 소자 특성을 최적화한 프로젝트입니다. 최종 조건에서 구동 전류(I<sub>max</sub>)는 약 13.5%만 희생하면서 누설 전류(I<sub>off</sub>)를 약 91% 줄이고 SS도 개선했습니다.
-
-[상세 페이지 보기 →](tcad/)
-
-### [30/60nm NMOS Short Channel Effect 개선 — SOI · Halo · Metal Gate](sce/)
-
-**Period:** 2026.05–2026.06 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Type:** 팀 프로젝트 (5인)
-
-소자 미세화에 따른 단채널 효과와 Punch-through를 억제하기 위해 SOI, Halo Doping, Metal Gate를 단독/복합 적용하여 정량 비교한 팀 프로젝트입니다. 팀 내 유일한 차세대반도체 복수전공자로서 SOI·Metal Gate·Halo 시뮬레이션을 전담했으며, 30nm 통합 구조에서 SS를 186.6 → 89.9 mV/dec로 개선했습니다.
-
-[상세 페이지 보기 →](sce/)
-
-### [LAS 기반 반도체 공정 분석 주제 연구](las/)
-
-**Period:** 2026.05–2026.06 · **Course:** 반도체공정과화학분석 · **Type:** 팀 프로젝트 · **성과:** 반도체공학회 하계학술대회 발표로 연결
-
-미세화 공정 진단을 위한 차세대 분석 기법(LAS/QCLAS)을 조사·발표한 팀 프로젝트입니다. 조장으로서 자료 취합 일정과 역할 배분을 조율하고 팀 대표 주제 선정 발표를 담당했으며, "근거 논문이 오래되었다"는 피드백을 받아 인용 문헌을 2024~2026년 최신 논문으로 재정비했습니다. 이 주제는 이후 [반도체공학회 하계학술대회 구두 발표](qclas/)로 이어졌습니다.
-
-[상세 페이지 보기 →](las/)
+<div class="cards">
+<a class="card" href="tcad/">
+<div class="card-thumb"><img src="thumbs/tcad.jpg" alt="TCAD PMOS Process Optimization"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">개인 프로젝트</span></div>
+<div class="card-date">2026.04 — 2026.05 · 반도체집적공정</div>
+<div class="card-title">TCAD PMOS Process Conversion &amp; Optimization</div>
+<div class="card-sub">누설 전류 약 91%↓ · SS 개선</div>
+</div>
+</a>
+<a class="card" href="sce/">
+<div class="card-thumb"><img src="thumbs/sce.jpg" alt="30/60nm NMOS Short Channel Effect 개선"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">팀 프로젝트 · 5인</span></div>
+<div class="card-date">2026.05 — 2026.06 · 반도체집적공정</div>
+<div class="card-title">30/60nm NMOS Short Channel Effect 개선</div>
+<div class="card-sub">SS 186.6 → 89.9 mV/dec · CPC 발표</div>
+</div>
+</a>
+<a class="card" href="las/">
+<div class="card-thumb"><img src="thumbs/las.jpg" alt="LAS 기반 반도체 공정 분석 주제 연구"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">팀 프로젝트</span></div>
+<div class="card-date">2026.05 — 2026.06 · 반도체공정과화학분석</div>
+<div class="card-title">LAS 기반 반도체 공정 분석 주제 연구</div>
+<div class="card-sub">조장 · 반도체공학회 발표로 연계</div>
+</div>
+</a>
+</div>
 
 **[▶ 전체 프로젝트 보기 (학기별 정리) →](projects/)**
 
@@ -75,19 +81,26 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 ## Presentations & Competitions
 
-### [반도체공학회 하계종합학술대회 — 구두 발표](qclas/)
-
-**"QCLAS 기반 반도체 플라즈마 식각 공정 진단"** · 2026.07 · 특별세션 구두 발표 (아난티 앳 부산코브)
-
-미세화로 인한 기존 광학 진단법(OES)의 한계를 짚고, 그 대안인 QCLAS(양자 캐스케이드 레이저 흡수 분광법)의 원리와 실측 데이터 기반 정량 진단 가능성을 발표했습니다. 발표 후 "OES 대비 QCLAS의 장점"에 대한 질의에 데이터 근거로 답변했습니다.
-
-[발표 상세 페이지 보기 →](qclas/)
-
-### [CPC (프로젝트 보고서 챌린지)](sce/#cpc-발표-및-피드백-qa)
-
-**2026.06** — 30/60nm NMOS Short Channel Effect 개선 프로젝트 결과를 발표했습니다. "SS가 과도하게 높은 중간 데이터를 왜 포함했는가", "Metal Gate에 High-k가 함께 적용됐는가" 두 질의에 답하며 프로젝트의 판단 기준과 한계를 다시 짚었습니다. 특히 Metal Gate 단독 적용의 한계로부터 High-k의 필요성을 역으로 짚어낸 접근에 대해 긍정적인 피드백을 받았습니다.
-
-[Q&A 상세 보기 →](sce/#cpc-발표-및-피드백-qa)
+<div class="cards">
+<a class="card" href="qclas/">
+<div class="card-thumb"><img src="thumbs/qclas.jpg" alt="QCLAS 반도체공학회 하계학술대회 구두 발표"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-talk">CONFERENCE TALK</span></div>
+<div class="card-date">2026.07 · 반도체공학회 하계학술대회</div>
+<div class="card-title">QCLAS 기반 반도체 플라즈마 식각 공정 진단</div>
+<div class="card-sub">특별세션 구두 발표 · 첫 공식 학술 발표</div>
+</div>
+</a>
+<a class="card" href="sce/#cpc-발표-및-피드백-qa">
+<div class="card-thumb"><img src="thumbs/cpc.jpg" alt="CPC 프로젝트 보고서 챌린지 발표"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-talk">COMPETITION</span></div>
+<div class="card-date">2026.06 · 프로젝트 보고서 챌린지</div>
+<div class="card-title">CPC — SCE 프로젝트 결과 발표</div>
+<div class="card-sub">Q&amp;A 2건 직접 대응 · High-k 필요성 도출</div>
+</div>
+</a>
+</div>
 
 ---
 
