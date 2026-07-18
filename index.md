@@ -14,6 +14,7 @@
 | 2 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
 | 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
 | 4 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05-2026.06 | Team Project | [Project Page](las/) |
+| 5 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
 
 ---
 
@@ -59,6 +60,14 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 미세화 공정 진단을 위한 차세대 분석 기법(LAS/QCLAS)을 조사·발표한 팀 프로젝트입니다. 조장으로서 자료 취합 일정과 역할 배분을 조율하고 팀 대표 주제 선정 발표를 담당했으며, "근거 논문이 오래되었다"는 피드백을 받아 인용 문헌을 2024~2026년 최신 논문으로 재정비하며 근거의 시의성을 높이는 문헌 조사 방법을 체득했습니다.
 
 [상세 페이지 보기 →](las/)
+
+### 4. [웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교](soc/)
+
+**Period:** 2026.04–2026.06 · **Course:** 반도체개발프로세스 · **Type:** Team Project · **Status:** Completed
+
+웨어러블 헬스케어용 초저전력 SoC와 센서 IP를 분석한 팀 프로젝트입니다. "주요 기업별 웨어러블 SoC 기술 비교 및 분류 조사" 파트의 자료조사와 발표를 전담하여, 삼성(3nm GAA·FOPLP)·애플(맞춤형 SiP·AOP)·퀄컴(big.LITTLE·NPU)이 서로 다른 출발점에서 '대기전력 0 수렴'이라는 하나의 목표로 모이는 구조를 비교·분류했습니다.
+
+[상세 페이지 보기 →](soc/)
 
 <!-- ▼ 이후 프로젝트가 추가되면 여기에 같은 형식으로 이어붙입니다 ▼ -->
 
