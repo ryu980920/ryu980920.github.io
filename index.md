@@ -103,11 +103,13 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 특히 창설 첫 기수였던 만큼 조직이 단순 소모임으로 남을지 독립된 기자단으로 자리잡을지에 대한 논의가 있었는데, 단원들과 함께 의견을 모아 독립 기자단으로 정착하는 방향을 이끌어냈습니다.
 
-![신소재공학과 기자단 서포터즈 1기 이수증](images/gijadan_certificate.jpg)
+<a href="images/gijadan_certificate.jpg"><img src="images/gijadan_certificate.jpg" alt="신소재공학과 기자단 서포터즈 1기 이수증" width="240"></a>
+
+<sub>▲ 기자단 서포터즈 1기 이수증 (클릭하면 크게 볼 수 있습니다)</sub>
 
 ### 신소재공학과 학생회 — 복지국원 (2026.03–2026.12)
 
-학생 사물함 배정·철거, 간식 행사, 물품 대여 등 학과 구성원을 위한 복지사업을 기획·운영했습니다. → [학생회 소개](https://materials.ssu.ac.kr/student/list.php)
+학생 사물함 배정·철거, 간식 행사, 물품 대여 등 학과 구성원을 위한 복지사업을 기획·운영했습니다.
 
 ### 슈런 (교내 러닝 동아리) — 훈련부 임원 (2026.03–2026.12)
 
