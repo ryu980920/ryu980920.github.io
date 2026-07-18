@@ -37,39 +37,33 @@
 
 ## Projects
 
-### 1. [TCAD PMOS Process Conversion & Optimization](tcad/)
+대표 프로젝트입니다. QCLAS 학회 발표와 이전·이후 학기 프로젝트를 포함한 전체 목록은 **[전체 프로젝트 보기 →](projects/)** 에서 학기별로 확인할 수 있습니다.
 
-**Period:** 2026.04–2026.05 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Status:** Completed
+### [TCAD PMOS Process Conversion & Optimization](tcad/)
+
+**Period:** 2026.04–2026.05 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Type:** 개인 프로젝트
 
 Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWell 도핑 농도와 LDD Dose를 조정하여 소자 특성을 최적화한 프로젝트입니다. 최종 조건에서 구동 전류(I<sub>max</sub>)는 약 13.5%만 희생하면서 누설 전류(I<sub>off</sub>)를 약 91% 줄이고 SS도 개선했습니다.
 
 [상세 페이지 보기 →](tcad/)
 
-### 2. [30/60nm NMOS Short Channel Effect 개선 — SOI · Halo · Metal Gate](sce/)
+### [30/60nm NMOS Short Channel Effect 개선 — SOI · Halo · Metal Gate](sce/)
 
-**Period:** 2026.05–2026.06 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Type:** Team Project (5인) · **Status:** Completed
+**Period:** 2026.05–2026.06 · **Course:** 반도체집적공정 · **Tools:** Synopsys Sentaurus TCAD · **Type:** 팀 프로젝트 (5인)
 
 소자 미세화에 따른 단채널 효과와 Punch-through를 억제하기 위해 SOI, Halo Doping, Metal Gate를 단독/복합 적용하여 정량 비교한 팀 프로젝트입니다. 팀 내 유일한 차세대반도체 복수전공자로서 SOI·Metal Gate·Halo 시뮬레이션을 전담했으며, 30nm 통합 구조에서 SS를 186.6 → 89.9 mV/dec로 개선했습니다.
 
 [상세 페이지 보기 →](sce/)
 
-### 3. [LAS 기반 반도체 공정 분석 주제 연구](las/)
+### [LAS 기반 반도체 공정 분석 주제 연구](las/)
 
-**Period:** 2026.05-2026.06 · **Course:** 반도체공정과화학분석 · **Type:** Team Project · **Status:** Completed
+**Period:** 2026.05–2026.06 · **Course:** 반도체공정과화학분석 · **Type:** 팀 프로젝트 · **성과:** 반도체공학회 하계학술대회 발표로 연결
 
-미세화 공정 진단을 위한 차세대 분석 기법(LAS/QCLAS)을 조사·발표한 팀 프로젝트입니다. 조장으로서 자료 취합 일정과 역할 배분을 조율하고 팀 대표 주제 선정 발표를 담당했으며, "근거 논문이 오래되었다"는 피드백을 받아 인용 문헌을 2024~2026년 최신 논문으로 재정비하며 근거의 시의성을 높이는 문헌 조사 방법을 체득했습니다.
+미세화 공정 진단을 위한 차세대 분석 기법(LAS/QCLAS)을 조사·발표한 팀 프로젝트입니다. 조장으로서 자료 취합 일정과 역할 배분을 조율하고 팀 대표 주제 선정 발표를 담당했으며, "근거 논문이 오래되었다"는 피드백을 받아 인용 문헌을 2024~2026년 최신 논문으로 재정비했습니다. 이 주제는 이후 [반도체공학회 하계학술대회 구두 발표](qclas/)로 이어졌습니다.
 
 [상세 페이지 보기 →](las/)
 
-### 4. [웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교](soc/)
-
-**Period:** 2026.04–2026.06 · **Course:** 반도체개발프로세스 · **Type:** Team Project · **Status:** Completed
-
-웨어러블 헬스케어용 초저전력 SoC와 센서 IP를 분석한 팀 프로젝트입니다. "주요 기업별 웨어러블 SoC 기술 비교 및 분류 조사" 파트의 자료조사와 발표를 전담하여, 삼성(3nm GAA·FOPLP)·애플(맞춤형 SiP·AOP)·퀄컴(big.LITTLE·NPU)이 서로 다른 출발점에서 '대기전력 0 수렴'이라는 하나의 목표로 모이는 구조를 비교·분류했습니다.
-
-[상세 페이지 보기 →](soc/)
-
-<!-- ▼ 이후 프로젝트가 추가되면 여기에 같은 형식으로 이어붙입니다 ▼ -->
+**[▶ 전체 프로젝트 보기 (학기별 정리) →](projects/)**
 
 ---
 
