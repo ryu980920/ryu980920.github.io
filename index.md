@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 유용성 (Yongseong Ryu) | Materials & Semiconductor Engineering Portfolio
 
 반도체 공정 분야로의 취업을 목표로 하는 숭실대학교 신소재공학과 학생입니다. 꾸준함을 강점으로 삼아 학기를 거듭할수록 성적이 우상향해왔으며, TCAD 시뮬레이션을 중심으로 공정 설계와 소자 특성 분석 역량을 쌓아가고 있습니다.
