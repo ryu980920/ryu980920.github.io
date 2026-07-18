@@ -31,7 +31,9 @@
 - Semiconductor Devices & Processes
 - TCAD Device/Process Simulation — Synopsys Sentaurus (Workbench, SProcess, SDevice, SVisual). 개인 프로젝트, 팀 프로젝트, 학회 발표를 통해 공정 최적화부터 공정 진단까지 다각도로 시뮬레이션 경험을 쌓음
 - Materials Characterization — XRR, XRD, EPR 등 분석 장비 원리 및 활용 (반도체공정·화학분석 수업)
-- Materials Science — 재료역학, 고분자공학 등 전공 지식
+- Materials Science — 재료결정학, 무기화학, 고분자공학 등 전공 지식
+- Technical Presentation & Q&A — 반도체공학회 하계학술대회 구두 발표를 비롯해 팀 프로젝트 대표 발표(반도체공정과화학분석·반도체개발프로세스), CPC 프로젝트 발표 등 다수의 발표를 수행. 발표 후 질의응답에서 대부분의 질문에 데이터와 근거를 들어 직접 답변한 경험
+- Collaboration & Leadership — 다수의 팀 프로젝트를 수행했으며, LAS 프로젝트에서는 조장으로서 일정·역할 배분을 조율하고 팀을 대표해 발표를 담당
 
 ---
 
@@ -113,6 +115,8 @@ Sentaurus TCAD의 SimpleMOS(nMOS) 예제를 pMOS 공정으로 변환하고, NWel
 
 ## Coursework
 
-학기 중 수강한 반도체·재료 관련 과목 정리입니다. 자세한 내용은 아래 링크(Notion)에서 확인할 수 있습니다.
+반도체 공정·소자 및 재료 분야와 관련해 수강한 전공 과목입니다.
 
-- 반도체집적공정 · 재료역학 · 고분자공학 · [기타 수강 과목 추가 예정] → [Notion 정리 링크](https://www.notion.so/) <!-- ▼ Notion 링크 주소로 교체해주세요 -->
+**반도체 · 소자:** 반도체집적공정 · 반도체공정과화학분석 · 반도체개발프로세스 · 고체물리
+
+**재료:** 재료결정학 · 무기화학 · 고분자공학
