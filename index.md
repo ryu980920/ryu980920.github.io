@@ -14,11 +14,12 @@ layout: default
 
 | No. | Item | Period | Type | Link |
 | --- | --- | --- | --- | --- |
-| 1 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
-| 2 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
+| 1 | FinFET pMOS Embedded SiGe S/D — Stress Transfer Efficiency & Process Design Window | 2026.07–2026.09 | Competition · Team Project | [Project Page](finfet-sige/) |
+| 2 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
 | 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
-| 4 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05-2026.06 | Team Project | [Project Page](las/) |
-| 5 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
+| 4 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
+| 5 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05–2026.06 | Team Project | [Project Page](las/) |
+| 6 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
 
 ---
 
@@ -46,13 +47,13 @@ layout: default
 대표 프로젝트입니다. QCLAS 학회 발표와 이전·이후 학기 프로젝트를 포함한 전체 목록은 **[전체 프로젝트 보기 →](projects/)** 에서 학기별로 확인할 수 있습니다.
 
 <div class="cards">
-<a class="card" href="tcad/">
-<div class="card-thumb"><img src="thumbs/tcad.jpg" alt="TCAD PMOS Process Optimization"></div>
+<a class="card" href="finfet-sige/">
+<div class="card-thumb"><img src="https://raw.githubusercontent.com/ryu980920/Share/main/analysis/figures/pres_tradeoff_overlay.png" alt="FinFET pMOS Embedded SiGe S/D design window"></div>
 <div class="card-body">
-<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">개인 프로젝트</span></div>
-<div class="card-date">2026.04 — 2026.05 · 반도체집적공정</div>
-<div class="card-title">TCAD PMOS Process Conversion &amp; Optimization</div>
-<div class="card-sub">누설 전류 약 91%↓ · SS 개선</div>
+<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">경진대회 · 팀 프로젝트</span></div>
+<div class="card-date">2026.07 — 2026.09 · 차세대반도체 경진대회</div>
+<div class="card-title">FinFET pMOS Embedded SiGe S/D — STE &amp; Process Design Window</div>
+<div class="card-sub">25-point DoE · Ge→Stress / FR→STE · FR 15–20 nm 설계창</div>
 </div>
 </a>
 <a class="card" href="sce/">
@@ -70,7 +71,7 @@ layout: default
 <div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">팀 프로젝트</span></div>
 <div class="card-date">2026.05 — 2026.06 · 반도체공정과화학분석</div>
 <div class="card-title">LAS 기반 반도체 공정 분석 주제 연구</div>
-<div class="card-sub">조장 · 반도체공학회 발표로 연계</div>
+<div class="card-sub">조장 · 최신 문헌 재조사 · 반도체공학회 발표로 연계</div>
 </div>
 </a>
 </div>
@@ -82,6 +83,15 @@ layout: default
 ## Presentations & Competitions
 
 <div class="cards">
+<a class="card" href="finfet-sige/#competition-feedback--retrospective">
+<div class="card-thumb"><img src="https://raw.githubusercontent.com/ryu980920/Share/main/analysis/figures/pres_STE_map.png" alt="FinFET SiGe competition project"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-talk">COMPETITION</span></div>
+<div class="card-date">2026.09 · 차세대반도체 경진대회</div>
+<div class="card-title">FinFET pMOS Embedded SiGe S/D 설계창 분석</div>
+<div class="card-sub">2차 발표 피드백 반영 · 연구 차별점과 후속 연구 방향 정리</div>
+</div>
+</a>
 <a class="card" href="qclas/">
 <div class="card-thumb"><img src="thumbs/qclas.jpg" alt="QCLAS 반도체공학회 하계학술대회 구두 발표"></div>
 <div class="card-body">
