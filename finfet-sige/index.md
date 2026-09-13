@@ -164,7 +164,7 @@ FR=30–35 nm에서는 대부분의 Ge 조건에서 누설과 정전제어 열�
 - 같은 구간에서 gmSat은 감소하고 Ioff는 약 **2배 증가**
 - FR=20→35 nm에서는 SSlin·DIBL·Ioff가 빠르게 악화
 
-## **Practical FR Design Window: 15–20 nm**
+> **Practical FR Design Window: FR = 15–20 nm**
 
 이 구간은 대부분의 응력 전달 이득을 확보하면서 깊은 recess의 전기적 비용이 급증하기 전의 영역이다.
 
@@ -206,7 +206,7 @@ Embedded SiGe S/D와 Ge 조성·recess 최적화 자체는 이미 널리 알려�
 
 ---
 
-## Competition Feedback & Retrospective
+## 8. Competition Feedback & Retrospective
 
 ### 2차 발표 피드백
 
