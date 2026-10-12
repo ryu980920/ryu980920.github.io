@@ -27,8 +27,8 @@ title: 2026 차세대반도체 경진대회 최우수상 | Yongseong Ryu
 ## 01. 수상 상장
 
 <div class="award-document">
-  <a href="../../images/awards/tcaid-2026/certificate.jpg" target="_blank" rel="noopener noreferrer" aria-label="최우수상 상장 큰 이미지 열기">
-    <img src="../../images/awards/tcaid-2026/certificate.jpg" alt="2026 차세대반도체 경진대회 최우수상 상장 — 정면 보정 이미지" loading="eager">
+  <a href="../../images/awards/tcaid-2026/certificate.png" target="_blank" rel="noopener noreferrer" aria-label="최우수상 상장 큰 이미지 열기">
+    <img src="../../images/awards/tcaid-2026/certificate.png" alt="2026 차세대반도체 경진대회 최우수상 상장 — 정면 보정 이미지" loading="eager">
   </a>
 </div>
 

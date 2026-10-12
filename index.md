@@ -27,7 +27,7 @@ layout: default
 
 <div class="award-feature">
   <a class="award-feature-link" href="awards/tcaid-2026/" aria-label="2026 차세대반도체 경진대회 최우수상 수상 자료 보기">
-    <div class="award-thumb"><img src="images/awards/tcaid-2026/certificate.jpg" alt="2026 차세대반도체 경진대회 최우수상 상장" loading="lazy"></div>
+    <div class="award-thumb"><img src="images/awards/tcaid-2026/certificate.png" alt="2026 차세대반도체 경진대회 최우수상 상장" loading="lazy"></div>
     <div class="award-info">
       <div class="award-meta"><span class="award-rank">대회 최고상</span><span class="award-date">2026.10.01</span></div>
       <div class="award-title">2026 차세대반도체 경진대회 — 최우수상</div>
