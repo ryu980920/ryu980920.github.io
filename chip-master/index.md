@@ -39,16 +39,7 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 ---
 
-<div class="cmp-figure-grid">
-  <figure>
-    <img src="images/process.webp" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
-    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 발표자료, 슬라이드 18의 시뮬레이션 그림.</figcaption>
-  </figure>
-  <figure>
-    <img src="images/thumb.webp" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
-    <figcaption>DNW implant 단계의 도핑 분포. 2주차 발표자료, 슬라이드 19. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
-  </figure>
-</div>
+
 
 ## 2. 내가 담당한 연구의 핵심 문제
 
@@ -59,6 +50,17 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 따라서 목표값에 가장 가까운 **단일 SCORE 최소 조건**을 찾는 데서 멈추지 않고, 깊이별 농도곡선을 직접 비교해 부족한 부분의 원인을 추정하고, 필요한 implant component와 DOE 자체를 재설계하는 방식으로 연구를 진행했다.
 
 > **연구의 중심:** Parameter sweep → 수치 비교 → 프로파일 불일치 진단 → 공정 구조 수정 → 새로운 DOE → 실제 PLX 대조
+
+<div class="cmp-figure-grid">
+  <figure>
+    <img src="images/process.webp" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
+    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 발표자료, 슬라이드 18의 시뮬레이션 그림.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/thumb.webp" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
+    <figcaption>DNW implant 단계의 도핑 분포. 2주차 발표자료, 슬라이드 19. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
+  </figure>
+</div>
 
 ### 사용한 분석 흐름
 
