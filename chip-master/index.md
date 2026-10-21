@@ -53,12 +53,12 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 <div class="cmp-figure-grid">
   <figure>
-    <img src="images/process.webp" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
-    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 발표자료, 슬라이드 18의 시뮬레이션 그림.</figcaption>
+    <img src="images/process.png" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
+    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 PPT 슬라이드 18에 삽입된 PNG 원본을 그대로 사용.</figcaption>
   </figure>
   <figure>
-    <img src="images/thumb.webp" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
-    <figcaption>DNW implant 단계의 도핑 분포. 2주차 발표자료, 슬라이드 19. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
+    <img src="images/thumb.png" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
+    <figcaption>DNW implant 단계의 도핑 분포. 2주차 PPT 슬라이드 19의 PNG 원본. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
   </figure>
 </div>
 
@@ -92,9 +92,9 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 [근거: 2026-09-24 연구일지](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-09/2026-09-24.md)
 
-![Single-DNW 후보의 도핑 분포 비교 그래프](images/single.webp)
+![Single-DNW 후보의 도핑 분포 비교 그래프](images/single.png)
 
-<sub>▲ 3주차 발표자료 슬라이드 2의 Single-DNW Lowest-Score 후보 그래프. 최저 점수 조건도 기준 분포 폭에 미달했던 초기 DOE의 근거.</sub>
+<sub>▲ 3주차 PPT 슬라이드 2의 삽입 PNG 원본. Single-DNW Lowest-Score 후보 그래프. 최저 점수 조건도 기준 분포 폭에 미달했던 초기 DOE의 근거.</sub>
 
 ### 3-2. Dual-DNW — 얕은 tail을 분리했지만, 깊은 영역이 남았다
 
@@ -104,9 +104,9 @@ DNW를 **Main + Shallow Trim** 두 phosphorus implant component로 나눴다. �
 
 [근거: 2026-09-28](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-09/2026-09-28.md) · [2026-10-06](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-06.md)
 
-![Dual-DNW의 Main Energy 변경에 따른 도핑 프로파일 곡선 비교](images/dual.webp)
+![Dual-DNW의 Main Energy 변경에 따른 도핑 프로파일 곡선 비교](images/dual.png)
 
-<sub>▲ 3주차 발표자료 슬라이드 8. Main Energy 975/995 keV 비교에서도 깊은 영역의 불일치가 남아 Deep implant 도입을 검토한 근거.</sub>
+<sub>▲ 3주차 PPT 슬라이드 8의 삽입 PNG 원본. Main Energy 975/995 keV 비교에서도 깊은 영역의 불일치가 남아 Deep implant 도입을 검토한 근거.</sub>
 
 ### 3-3. Triple-DNW — Deep tail 개선과 새로운 trade-off
 
@@ -116,9 +116,9 @@ Case 15의 DNW Peak 농도비는 약 **1.00008**, equivalent sigma는 **376.415 
 
 [근거: 2026-10-08](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-08.md) · [2026-10-12-1](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-12-1.md) · [2026-10-15-1](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-15-1.md)
 
-![Triple-DNW의 대표 도핑 프로파일 비교](images/triple.webp)
+![Triple-DNW의 대표 도핑 프로파일 비교](images/triple.png)
 
-<sub>▲ 3주차 발표자료 슬라이드 10의 Triple-DNW 대표 비교 그래프. Deep implant 추가 후에도 깊이별 과소·과다의 균형을 확인해야 했다. **10월 15일 Case 15 결과 그래프가 아닌 앞선 45조건 DOE 자료**다.</sub>
+<sub>▲ 3주차 PPT 슬라이드 10의 삽입 PNG 원본. Triple-DNW 대표 비교 그래프. Deep implant 추가 후에도 깊이별 과소·과다의 균형을 확인해야 했다. **10월 15일 Case 15 결과 그래프가 아닌 앞선 45조건 DOE 자료**다.</sub>
 
 ### 3-4. PW calibration — Main Peak와 junction-side tail의 충돌
 
@@ -130,9 +130,9 @@ Deep PW 29조건에서는 깊은 Boron 형성이 가능해졌으나 second peak 
 
 [근거: 2026-10-15-2](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-15-2.md) · [2026-10-19](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-19.md) · [2026-10-20](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-20.md)
 
-![Single PW와 Two-energy PW 도핑 프로파일의 초기 비교](images/pw.webp)
+![Single PW와 Two-energy PW 도핑 프로파일의 초기 비교](images/pw.png)
 
-<sub>▲ 2주차 발표자료 슬라이드 24의 초기 PW 구조 변경 비교. 현재의 Triple-PW 실험 결과가 아닌, PW implant 분할 필요성을 보여주는 **이전 단계 자료**다.</sub>
+<sub>▲ 2주차 PPT 슬라이드 24의 삽입 PNG 원본. 초기 PW 구조 변경 비교. 현재의 Triple-PW 실험 결과가 아닌, PW implant 분할 필요성을 보여주는 **이전 단계 자료**다.</sub>
 
 ### 3-5. Triple-PW — 2026년 10월 21일 현재
 
