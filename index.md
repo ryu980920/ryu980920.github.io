@@ -15,12 +15,13 @@ layout: default
 | No. | Item | Period | Type | Link |
 | --- | --- | --- | --- | --- |
 | 1 | **2026 Chip Master Project — 28 nm FD-SOI SPAD Co-Design** | 2026.08–Present | Research · Team Project | [Project Page](chip-master/) |
-| 2 | FinFET pMOS Embedded SiGe S/D — Stress Transfer Efficiency & Process Design Window | 2026.07–2026.09 | Competition · Team Project | [Project Page](finfet-sige/) |
-| 3 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
-| 4 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
-| 5 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
-| 6 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05–2026.06 | Team Project | [Project Page](las/) |
-| 7 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
+| 2 | **TCAID: TCAD AI Manager — 자연어 기반 Sentaurus TCAD 연구 자동화** | 2026 | Competition · Team Project | [Project Page](tcaid/) |
+| 3 | FinFET pMOS Embedded SiGe S/D — Stress Transfer Efficiency & Process Design Window | 2026.07–2026.09 | Competition · Team Project | [Project Page](finfet-sige/) |
+| 4 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
+| 5 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
+| 6 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
+| 7 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05–2026.06 | Team Project | [Project Page](las/) |
+| 8 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
 
 ---
 
@@ -72,6 +73,15 @@ layout: default
 <div class="card-date">2026.08 — Present · 차세대반도체 Chip Master Project</div>
 <div class="card-title">28 nm FD-SOI SPAD — 940 nm dToF Co-Design</div>
 <div class="card-sub">공통 SPAD baseline → Single/Dual/Triple-DNW → PW 공정 보정 · 연구 진행 과정</div>
+</div>
+</a>
+<a class="card" href="tcaid/">
+<div class="card-thumb"><img src="https://raw.githubusercontent.com/minhosong-mse/minhosong-mse.github.io/main/projects/tcaid/assets/images/logo.webp" alt="TCAID: TCAD AI Manager 프로젝트 로고" loading="lazy" style="object-fit:contain;background:#f8fafc"></div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-done">COMPLETED</span><span class="badge badge-tag">경진대회 최우수상 · 팀 프로젝트</span></div>
+<div class="card-date">2026 · 차세대반도체 경진대회</div>
+<div class="card-title">TCAID: TCAD AI Manager</div>
+<div class="card-sub">자연어 연구 의도 → 코드 승인 → 격리 TCAD 실행 → 결과·지표 비교 · 1-Cycle 56.4% 시간 단축</div>
 </div>
 </a>
 <a class="card" href="finfet-sige/">
