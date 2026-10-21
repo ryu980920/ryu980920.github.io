@@ -14,12 +14,13 @@ layout: default
 
 | No. | Item | Period | Type | Link |
 | --- | --- | --- | --- | --- |
-| 1 | FinFET pMOS Embedded SiGe S/D — Stress Transfer Efficiency & Process Design Window | 2026.07–2026.09 | Competition · Team Project | [Project Page](finfet-sige/) |
-| 2 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
-| 3 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
-| 4 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
-| 5 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05–2026.06 | Team Project | [Project Page](las/) |
-| 6 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
+| 1 | **2026 Chip Master Project — 28 nm FD-SOI SPAD Co-Design** | 2026.08–Present | Research · Team Project | [Project Page](chip-master/) |
+| 2 | FinFET pMOS Embedded SiGe S/D — Stress Transfer Efficiency & Process Design Window | 2026.07–2026.09 | Competition · Team Project | [Project Page](finfet-sige/) |
+| 3 | QCLAS 기반 반도체 플라즈마 식각 공정 진단 | 2026.07 | Conference Talk | [Presentation Page](qclas/) |
+| 4 | 30/60nm NMOS Short Channel Effect 개선 (Team) | 2026.05–2026.06 | Team Project | [Project Page](sce/) |
+| 5 | TCAD PMOS Process Conversion & Optimization | 2026.04–2026.05 | Project | [Project Page](tcad/) |
+| 6 | LAS 기반 반도체 공정 분석 주제 연구 (Team) | 2026.05–2026.06 | Team Project | [Project Page](las/) |
+| 7 | 웨어러블 헬스케어용 초저전력 SoC — 기업별 기술 비교 (Team) | 2026.04–2026.06 | Team Project | [Project Page](soc/) |
 
 ---
 
@@ -64,6 +65,17 @@ layout: default
 대표 프로젝트입니다. QCLAS 학회 발표와 이전·이후 학기 프로젝트를 포함한 전체 목록은 **[전체 프로젝트 보기 →](projects/)** 에서 학기별로 확인할 수 있습니다.
 
 <div class="cards">
+<a class="card" href="chip-master/">
+<div class="card-thumb" style="background:linear-gradient(135deg,#173047,#2d627f);display:flex;align-items:center;justify-content:center;color:#fff">
+<div style="text-align:center;font-size:21px;font-weight:700;line-height:1.5">28 nm FD-SOI SPAD<div style="font-size:12px;letter-spacing:1.3px;font-weight:500;opacity:.87">PROCESS · TCAD · DOE</div></div>
+</div>
+<div class="card-body">
+<div class="card-badges"><span class="badge badge-tag">IN PROGRESS</span><span class="badge badge-tag">Chip Master · 2인 연구</span></div>
+<div class="card-date">2026.08 — Present · 차세대반도체 Chip Master Project</div>
+<div class="card-title">28 nm FD-SOI SPAD — 940 nm dToF Co-Design</div>
+<div class="card-sub">공통 SPAD baseline → Single/Dual/Triple-DNW → PW 공정 보정 · 연구 진행 과정</div>
+</div>
+</a>
 <a class="card" href="finfet-sige/">
 <div class="card-thumb"><img src="https://raw.githubusercontent.com/ryu980920/Share/main/analysis/figures/pres_tradeoff_overlay.png" alt="FinFET pMOS Embedded SiGe S/D design window"></div>
 <div class="card-body">
