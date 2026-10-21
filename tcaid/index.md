@@ -11,7 +11,7 @@ title: "TCAID · TCAD AI Manager | Yongseong Ryu"
 
 | 항목 | 내용 |
 | --- | --- |
-| 기간 | **2026년** |
+| 기간 | **2026.07–2026.09** |
 | 구분 | **차세대반도체 경진대회 · 팀 프로젝트** |
 | 팀명 | **쥬송쥬송** |
 | 팀원 | 송민호 · 주상현 · **유용성** · 이선재 · 이택규 |
@@ -24,9 +24,9 @@ title: "TCAID · TCAD AI Manager | Yongseong Ryu"
 
 TCAID는 자연어를 이용해 반도체 공정·소자 연구를 수행할 때 필요한 **프로젝트 해석, 조건 확인, 코드 제안과 검토, 실행, 데이터 수집, 결과 비교**를 연결하는 연구 지원 시스템이다. TCAD의 물리 계산을 AI로 대체하는 대신, 실제 계산은 Sentaurus가 담당하고 **연구자는 변경 사항을 최종 승인**하도록 설계했다.
 
-**[프로젝트 시연 영상](https://www.youtube.com/watch?v=SZO0Ig2KbU4)** · **[팀 연구 저장소](https://github.com/jujushmaterial/TCAD-AI-Manager)** · **[출처: 공동 팀원 포트폴리오](https://minhosong-mse.github.io/projects/tcaid/)**
+**[프로젝트 시연 영상](https://www.youtube.com/watch?v=SZO0Ig2KbU4)** · **[팀 연구 저장소](https://github.com/jujushmaterial/TCAD-AI-Manager)**
 
-> 이 페이지는 제가 참여한 공동 프로젝트의 **기술·검증 범위를 팀원 페이지와 동일하게 유지**하면서, 제 포트폴리오 형식에 맞춰 다시 서술한 기록입니다. 팀 전체의 성과를 개인 단독 개발 성과로 표기하지 않습니다.
+> 팀 전체가 공동으로 수행한 프로젝트이며, 제 포트폴리오에는 공동 연구의 시스템 설계와 검증 결과를 정리했습니다.
 
 ---
 
@@ -191,11 +191,9 @@ TCAID가 보여준 것은 AI에 소자 물리 계산을 맡기는 방식이 아�
 
 ---
 
-## 자료와 출처
+## 관련 자료
 
-- **[팀원 송민호의 TCAID 프로젝트 상세 기록](https://minhosong-mse.github.io/projects/tcaid/)** — 본 페이지에서 기술 내용과 검증 범위를 정리할 때 사용한 자료이자 원본 연구 이미지의 출처
 - **[TCAID GitHub 연구 저장소](https://github.com/jujushmaterial/TCAD-AI-Manager)** — 저장소 접근 권한에 따라 일부 방문자는 내용을 열람하지 못할 수 있음
 - **[프로젝트 시연 영상](https://www.youtube.com/watch?v=SZO0Ig2KbU4)**
 - **[본인 포트폴리오의 경진대회 수상 증빙](../awards/tcaid-2026/)**
 
-<sub>연구 이미지는 공동 프로젝트 팀원이 게시한 원본 그림을 변경 없이 연결했습니다. 이 글은 팀 연구의 동일한 실험·결과를 다루는 별도 포트폴리오 설명이며, 원본 페이지의 문장을 복제한 것은 아닙니다.</sub>
