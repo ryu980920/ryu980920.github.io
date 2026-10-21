@@ -66,9 +66,7 @@ layout: default
 
 <div class="cards">
 <a class="card" href="chip-master/">
-<div class="card-thumb" style="background:linear-gradient(135deg,#173047,#2d627f);display:flex;align-items:center;justify-content:center;color:#fff">
-<div style="text-align:center;font-size:21px;font-weight:700;line-height:1.5">28 nm FD-SOI SPAD<div style="font-size:12px;letter-spacing:1.3px;font-weight:500;opacity:.87">PROCESS · TCAD · DOE</div></div>
-</div>
+<div class="card-thumb"><img src="chip-master/images/thumb.webp" alt="Chip Master Project: 28 nm FD-SOI SPAD의 DNW implant 공정 도핑 분포" loading="lazy"></div>
 <div class="card-body">
 <div class="card-badges"><span class="badge badge-tag">IN PROGRESS</span><span class="badge badge-tag">Chip Master · 2인 연구</span></div>
 <div class="card-date">2026.08 — Present · 차세대반도체 Chip Master Project</div>
