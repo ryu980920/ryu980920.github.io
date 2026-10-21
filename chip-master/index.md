@@ -53,12 +53,12 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 <div class="cmp-figure-grid">
   <figure>
-    <img src="images/process.png" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
-    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 PPT 슬라이드 18에 삽입된 PNG 원본을 그대로 사용.</figcaption>
+    <img src="images/process.png" alt="SProcess에서 구현한 STI 구조" loading="lazy">
+    <figcaption>SProcess 공정 단계에서 형성한 STI 절연 구조.</figcaption>
   </figure>
   <figure>
-    <img src="images/thumb.png" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
-    <figcaption>DNW implant 단계의 도핑 분포. 2주차 PPT 슬라이드 19의 PNG 원본. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
+    <img src="images/thumb.png" alt="DNW 이온주입 후 도핑 농도 분포" loading="lazy">
+    <figcaption>DNW 이온주입 후 형성된 도핑 농도의 공간 분포.</figcaption>
   </figure>
 </div>
 
@@ -94,7 +94,7 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 ![Single-DNW 후보의 도핑 분포 비교 그래프](images/single.png)
 
-<sub>▲ 3주차 PPT 슬라이드 2의 삽입 PNG 원본. Single-DNW Lowest-Score 후보 그래프. 최저 점수 조건도 기준 분포 폭에 미달했던 초기 DOE의 근거.</sub>
+<sub>▲ Single-DNW 대표 후보의 도핑 프로파일 비교. 단일 이온주입 조건에서 목표 분포 폭과의 차이를 확인했다.</sub>
 
 ### 3-2. Dual-DNW — 얕은 tail을 분리했지만, 깊은 영역이 남았다
 
@@ -106,7 +106,7 @@ DNW를 **Main + Shallow Trim** 두 phosphorus implant component로 나눴다. �
 
 ![Dual-DNW의 Main Energy 변경에 따른 도핑 프로파일 곡선 비교](images/dual.png)
 
-<sub>▲ 3주차 PPT 슬라이드 8의 삽입 PNG 원본. Main Energy 975/995 keV 비교에서도 깊은 영역의 불일치가 남아 Deep implant 도입을 검토한 근거.</sub>
+<sub>▲ DNW Main Energy 변화에 따른 깊이별 인 도핑 프로파일 비교. 깊은 영역의 잔여 농도 차이를 보여준다.</sub>
 
 ### 3-3. Triple-DNW — Deep tail 개선과 새로운 trade-off
 
@@ -118,7 +118,7 @@ Case 15의 DNW Peak 농도비는 약 **1.00008**, equivalent sigma는 **376.415 
 
 ![Triple-DNW의 대표 도핑 프로파일 비교](images/triple.png)
 
-<sub>▲ 3주차 PPT 슬라이드 10의 삽입 PNG 원본. Triple-DNW 대표 비교 그래프. Deep implant 추가 후에도 깊이별 과소·과다의 균형을 확인해야 했다. **10월 15일 Case 15 결과 그래프가 아닌 앞선 45조건 DOE 자료**다.</sub>
+<sub>▲ Triple-DNW의 대표 도핑 프로파일 비교. Deep implant 조건에 따라 깊이별 농도 부족과 과다가 달라지는 모습을 보여준다.</sub>
 
 ### 3-4. PW calibration — Main Peak와 junction-side tail의 충돌
 
@@ -132,7 +132,7 @@ Deep PW 29조건에서는 깊은 Boron 형성이 가능해졌으나 second peak 
 
 ![Single PW와 Two-energy PW 도핑 프로파일의 초기 비교](images/pw.png)
 
-<sub>▲ 2주차 PPT 슬라이드 24의 삽입 PNG 원본. 초기 PW 구조 변경 비교. 현재의 Triple-PW 실험 결과가 아닌, PW implant 분할 필요성을 보여주는 **이전 단계 자료**다.</sub>
+<sub>▲ Single PW와 Two-energy PW의 도핑 프로파일 비교. 주입 에너지 분할에 따른 붕소 농도 분포와 접합 위치의 차이를 보여준다.</sub>
 
 ### 3-5. Triple-PW — 2026년 10월 21일 현재
 
