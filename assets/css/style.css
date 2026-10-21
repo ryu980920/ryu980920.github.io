@@ -205,3 +205,34 @@ a:hover{ text-decoration:underline; }
   .cmp-figure-grid{grid-template-columns:1fr;gap:18px;}
   .content .cmp-figure-grid img{height:auto;max-height:260px;}
 }
+
+
+/* TCAID: media, quantitative results and responsive research figures */
+.tcaid-figure{margin:20px 0 25px;text-align:center;min-width:0;}
+.tcaid-figure a{display:block;cursor:zoom-in;}
+.content .tcaid-figure img{display:block;width:100%;height:auto;max-height:440px;object-fit:contain;margin:0 auto;background:#f7f9fc;border:1px solid var(--line);border-radius:10px;padding:5px;}
+.tcaid-figure figcaption{font-size:12px;color:var(--muted);line-height:1.65;margin:8px 4px 0;}
+.tcaid-figure-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0 26px;}
+.tcaid-figure-grid .tcaid-figure{margin:0;}
+.content .tcaid-figure-grid img{max-height:270px;height:240px;}
+.content .tcaid-figure.tcaid-logo img{max-height:250px;width:min(100%,560px);}
+.content .tcaid-figure.tcaid-poster img{max-height:none;width:min(100%,790px);height:auto;}
+.tcaid-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0;}
+.tcaid-stats>div{padding:17px;border:1px solid var(--line);border-radius:10px;background:var(--panel);}
+.tcaid-stats strong{display:block;font-size:25px;color:var(--accent-deep);margin-bottom:6px;line-height:1.15;}
+.tcaid-stats span{display:block;font-size:12px;line-height:1.5;color:var(--muted);}
+.tcaid-video{position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;background:#0b192f;margin:18px 0;}
+.tcaid-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.tcaid-time-bars{display:grid;gap:14px;margin:16px 0 25px;}
+.tcaid-time-bars>div{display:grid;grid-template-columns:115px minmax(0,1fr) 70px;align-items:center;gap:10px;font-size:13px;}
+.tcaid-time-bars>div>div{height:15px;border-radius:4px;background:#edf2f7;overflow:hidden;}
+.tcaid-time-bars i{display:block;height:100%;background:var(--accent-deep);border-radius:4px;}
+.tcaid-time-bars b{text-align:right;font-variant-numeric:tabular-nums;}
+@media(max-width:640px){
+ .tcaid-figure-grid{grid-template-columns:1fr;gap:22px;}
+ .content .tcaid-figure-grid img{height:auto;max-height:350px;}
+ .tcaid-stats{gap:9px;}
+ .tcaid-stats>div{padding:12px;}
+ .tcaid-stats strong{font-size:20px;}
+ .tcaid-time-bars>div{grid-template-columns:88px minmax(0,1fr) 48px;gap:7px;font-size:11px;}
+}
