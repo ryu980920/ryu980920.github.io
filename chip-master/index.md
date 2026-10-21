@@ -39,6 +39,17 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 ---
 
+<div class="cmp-figure-grid">
+  <figure>
+    <img src="images/process.webp" alt="2주차 발표자료의 SProcess STI 구조 형성 결과" loading="lazy">
+    <figcaption>초기 SProcess 공정 구현에서 형성한 STI 구조. 2주차 발표자료, 슬라이드 18의 시뮬레이션 그림.</figcaption>
+  </figure>
+  <figure>
+    <img src="images/thumb.webp" alt="2주차 발표자료에서 추출한 DNW implant의 도핑 분포 시뮬레이션 이미지" loading="lazy">
+    <figcaption>DNW implant 단계의 도핑 분포. 2주차 발표자료, 슬라이드 19. 이후 DOE의 최종 최적 조건을 뜻하지는 않는다.</figcaption>
+  </figure>
+</div>
+
 ## 2. 내가 담당한 연구의 핵심 문제
 
 **SDE에서 정의한 도핑 프로파일을 실제 공정 변수(implant energy/dose, RTA)를 사용하는 SProcess에서 얼마나 가깝게 재현할 수 있는가?**
@@ -79,6 +90,10 @@ title: "2026 Chip Master Project | 28 nm FD-SOI SPAD"
 
 [근거: 2026-09-24 연구일지](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-09/2026-09-24.md)
 
+![Single-DNW 후보의 도핑 분포 비교 그래프](images/single.webp)
+
+<sub>▲ 3주차 발표자료 슬라이드 2의 Single-DNW Lowest-Score 후보 그래프. 최저 점수 조건도 기준 분포 폭에 미달했던 초기 DOE의 근거.</sub>
+
 ### 3-2. Dual-DNW — 얕은 tail을 분리했지만, 깊은 영역이 남았다
 
 DNW를 **Main + Shallow Trim** 두 phosphorus implant component로 나눴다. 실제 초기 64조건을 확인하며 기준 폭에 아직 미달함을 확인했고, 후속 108조건에서도 **deep-side tail 부족**이 남았다.
@@ -87,6 +102,10 @@ DNW를 **Main + Shallow Trim** 두 phosphorus implant component로 나눴다. �
 
 [근거: 2026-09-28](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-09/2026-09-28.md) · [2026-10-06](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-06.md)
 
+![Dual-DNW의 Main Energy 변경에 따른 도핑 프로파일 곡선 비교](images/dual.webp)
+
+<sub>▲ 3주차 발표자료 슬라이드 8. Main Energy 975/995 keV 비교에서도 깊은 영역의 불일치가 남아 Deep implant 도입을 검토한 근거.</sub>
+
 ### 3-3. Triple-DNW — Deep tail 개선과 새로운 trade-off
 
 세 번째 **Deep implant**를 추가하여 Main Peak, shallow tail, deep tail을 상대적으로 독립적으로 조정하도록 바꿨다. 45조건 screening에서 깊은 Energy가 tail에 미치는 영향을 확인한 뒤, 25조건·81조건 refinement로 범위를 좁혔다. 이후 27조건을 추가 분석해 **Case 15**를 PW calibration 중의 임시 기준으로 정했다.
@@ -94,6 +113,10 @@ DNW를 **Main + Shallow Trim** 두 phosphorus implant component로 나눴다. �
 Case 15의 DNW Peak 농도비는 약 **1.00008**, equivalent sigma는 **376.415 nm**로 SDE의 기준 폭(~380.6 nm)에 가까웠다. 그러나 300 nm, 600 nm, 1.3 µm 등의 **깊이별 오차는 남았다**. 따라서 이 수치만으로 공정·전기적 baseline 재현이 완료되었다고 해석하지 않았다.
 
 [근거: 2026-10-08](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-08.md) · [2026-10-12-1](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-12-1.md) · [2026-10-15-1](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-15-1.md)
+
+![Triple-DNW의 대표 도핑 프로파일 비교](images/triple.webp)
+
+<sub>▲ 3주차 발표자료 슬라이드 10의 Triple-DNW 대표 비교 그래프. Deep implant 추가 후에도 깊이별 과소·과다의 균형을 확인해야 했다. **10월 15일 Case 15 결과 그래프가 아닌 앞선 45조건 DOE 자료**다.</sub>
 
 ### 3-4. PW calibration — Main Peak와 junction-side tail의 충돌
 
@@ -104,6 +127,10 @@ DNW를 어느 정도 정합하더라도 **PW Boron의 Main Peak, 200~300 nm의 s
 Deep PW 29조건에서는 깊은 Boron 형성이 가능해졌으나 second peak 문제가 여전히 남았다. 이후 저Dose 18조건을 분석하고 **155 keV / 2.8×10¹² cm⁻²**를 Triple-PW의 *임시 Deep 고정 조건*으로 선택했다. 이것은 최종 우월성을 입증한 공정 조건이 아니다.
 
 [근거: 2026-10-15-2](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-15-2.md) · [2026-10-19](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-19.md) · [2026-10-20](https://github.com/jujushmaterial/2026-chip-master-project-record/blob/main/members/ryu980920/timeline/2026-10/2026-10-20.md)
+
+![Single PW와 Two-energy PW 도핑 프로파일의 초기 비교](images/pw.webp)
+
+<sub>▲ 2주차 발표자료 슬라이드 24의 초기 PW 구조 변경 비교. 현재의 Triple-PW 실험 결과가 아닌, PW implant 분할 필요성을 보여주는 **이전 단계 자료**다.</sub>
 
 ### 3-5. Triple-PW — 2026년 10월 21일 현재
 
